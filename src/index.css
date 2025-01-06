@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #213547;
+}
+
+/* Reset conflicting styles */
+body {
+  display: block;
+  min-height: 100vh;
+  place-items: unset;
+}
+
+/* Override dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #f5f5f5;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+}
