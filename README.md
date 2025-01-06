@@ -1,6 +1,7 @@
 # Collaborative Markdown Editor 📝🌐
 
 ## Overview
+In satisfaction of the `Design Practices in CS` course requirements, Monsoon 2024.
 
 This is a real-time collaborative markdown editor built with React and Monaco Editor, enabling multiple users to edit the same document simultaneously through peer-to-peer WebRTC connections.
 
